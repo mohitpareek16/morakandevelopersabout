@@ -1,0 +1,506 @@
+.topnav {
+    
+  padding-left:524px;
+  overflow: hidden;
+  position: static;
+  }
+  
+  .logo img{
+    padding-left:103px ;
+    width: 50px;
+   
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #300255 ;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  .wrapper{
+    padding-left: 553px;
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 4px;
+  }
+  .wrapper .button{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 45px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 45px;
+    box-sizing: border-box;
+    line-height: 45px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  
+  
+  
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #ff0000;
+  }
+  
+    .background {
+  
+        /* The background image will change 
+        whenever we load the page */
+        background: -webkit-linear-gradient(left, #8ecef8, #4c07ee);
+  
+        /* This will make the background that
+        have been added will be darken */
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+  
+    .firstsection {
+  
+        /* It is to make the height of the 
+        viewport to be 100 */
+        height: 100vh;
+    }
+  
+    .box-main {
+  
+        /* This is to display the contact us 
+        and the sentences below it to be 
+        displayed in flex */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        /* This is to display the text to have 
+        a color of white */
+        color: white;
+        max-width: 50%;
+  
+        /* Now we will set the margin to auto */
+        /* This will make all the text to be 
+        displayed at the center of the page */
+        margin: auto;
+  
+        /* This will make the text to display 
+        at the center of the page vertically */
+        height: 80%;
+    }
+  
+    .firstHalf {
+        width: 75%;
+        display: flex;
+  
+        /* It is to specify the direction of 
+        the flexible items */
+        flex-direction: column;
+        justify-content: center
+    }
+  
+    .firstHalf img {
+        display: flex;
+        border-radius: 9050px;
+    }
+  
+    /* This is used to make the text 
+    to appear bigger */
+  
+    /* Now we have used a font here to 
+    distinguish itself from the next text */
+    .text-big {
+        font-family: 'Piazzolla', serif;
+  
+        /* The text to have a style of bold */
+        font-weight: bold;
+  
+        /* The size of the text to be appearing 
+        as bigger to distinguish itself from 
+        the text in the class text-small */
+        font-size: 41px;
+  
+        /* The text to be aligned at center */
+        text-align: center;
+    }
+  
+    .text-small {
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 18px;
+        text-align: center;
+    }
+  
+    #service {
+        margin: 34px;
+        display: flex;
+    }
+  
+    #service .box {
+  
+        /* This is for the background of the box */
+        /* To make all the boxes seperatable 
+        from each other */
+        padding: 45px;
+        margin: 3px 6px;
+  
+        /* To make the box have a better 
+        looking than rectangular shape */
+        border-radius: 28px;
+    }
+  
+    /* This is for the image that we have 
+    used in the box */
+    #service .box img {
+        margin-top: 20px;
+  
+        /* This is for the height of the image 
+        that is required for the page */
+        height: 100px;
+        margin: auto;
+        display: block;
+  
+        /* This is to make the image obtain 
+        a circular shape */
+        border-radius: 200px;
+    }
+  
+    #service .box p {
+  
+        /* This is for the text that we have 
+        written to define the image that we 
+        have used */
+        font-family: sans-serif;
+  
+        /* This is to make the text to be 
+        aligned at center */
+        text-align: center;
+    }
+  
+    .btn {
+        padding: 8px 20px;
+        margin: 7px 0;
+  
+        /* The radius of the border will have 
+        a width of 2px and the type of border 
+        will be solid. The border will have a
+        border of white depending on what type 
+        of image we have used as background */
+        border: 2px solid white;
+  
+        /* Here we have used border-radius to
+        make the search button appear better */
+        border-radius: 8px;
+  
+        /* To make the button have the color 
+        of background */
+        background: none;
+  
+        /* To make the text of the button 
+        have the color of white */
+        color: white;
+        cursor: pointer;
+    }
+  
+    .btn-sm {
+        padding: 6px 10px;
+        vertical-align: middle;
+    }
+  
+    /* This is used here in case if we want 
+    to make the text appear at center */
+  
+    .center {
+        text-align: center;
+    }
+  
+    .text-footer {
+        text-align: center;
+        padding: 30px 0;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    
+   
+      
+      .resume{
+        padding: 0px;
+        
+      }
+      
+      .first img{
+        border-radius: 50%;
+        width: 28%;
+    
+        padding: 0px 444px;
+
+      }
+      .name{
+        padding: 0px 594px;
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .mc{
+        padding: 0px 0px;
+      }
+      .name1{
+        padding: 6px 9px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+      }
+      .basic{
+        padding: 13px 11px;
+        font-size: 20px;
+        font-family: 'Font Awesome 5 Free';
+      }
+      .qotes{
+        padding: 68px 505px;
+        font-size: 35px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background: -webkit-linear-gradient(left, #8ecef8, #4c07ee);
+        background-blend-mode: darken;
+        background-size: cover;
+      }
+      .part1{
+        text-align: center;
+        padding: 29px 413px;
+      }
+      .word{
+        font-family: monospace;
+        font-size: 104px;
+        font-style: inherit;
+
+      }
+      .static{
+        font-family: cursive;
+        font-size: 20px;
+        padding: 5px
+      }
+      .swd{
+        font-size: 15px;
+        font-family: serif;
+        font-style: italic;
+           padding: 5px 
+      }
+      .web{
+
+        font-family: cursive;
+        font-size: 20px;
+            padding: 5px
+      }
+      .wd{font-size: 15px;
+        font-family: serif;
+        font-style: italic;
+    padding: 5px
+      }
+      .e{
+        font-family: cursive;
+        font-size: 20px;
+    padding: 5px
+      }
+      .ecd{font-size: 15px;
+        font-family: serif;
+        font-style: italic;
+    padding: 5px
+      }
+      .potal{
+        font-family: cursive;
+        font-size: 20px;
+
+      }
+      .pd{font-size: 15px;
+        font-family: serif;
+        font-style: italic;
+    padding: 5px
+      }
+      .images{
+        display: flex;
+      }
+      .images img{
+        width: 16.66%;
+        padding: 30px 0px
+      }
+      .mohit{
+        padding: 37px 50px;
+       display: flex;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+      }
+
+      .mohit1 img{
+        width: 80%;
+    padding: 0px 45px;
+    text-align: center;
+      }
+      .mohit2 img{
+        width: 80%;
+    padding: 0px 45px;
+    text-align: center;
+        
+      }
+      .mohit3 img{
+        width: 52%;
+    padding: 16px 364px;
+    height: 45%;
+      }
+      .skilled{
+        padding: 6px 5px;
+        text-align: center;
+      }
+      .TRAINING{
+        text-align: center;
+      }
+      .education{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        padding: 7px 24px;
+      }
+      .mohit4{
+        padding: 16px;
+        font-size: 20px ;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        text-align: center;
+        background: -webkit-linear-gradient(left, #8ecef8, #4c07ee);
+        background-blend-mode: darken;
+        background-size: cover;
+        color: whitesmoke;
+        cursor: pointer;
+      }
+     .class{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-style: italic;
+       display: inline;
+
+     }
+     @media only screen and (max-width :1024px){
+      .topnav{
+        padding-left:44px;
+    
+      }
+      .logo img{
+        padding-left: 90px;
+      }
+      .wrapper{
+        padding-left:46px;
+      }
+      .or{
+        margin-left: 438px;
+    
+      }
+      .you{
+        margin-left: 115px;
+      }
+      .phone{
+        margin: 20px 111px;
+      }
+      .word{
+     
+       font-size: 50px;
+
+      }
+      .qotes{
+        font-size: 29px;
+        padding: 25px;
+      }
+    
+    .part1{
+padding: 0px 5px;
+    }
+    
+    .first {
+      display: none;
+    }
+    .name1{
+      padding: 0px 110px;
+    }
+    .name{
+      padding: 0px 142px;
+    }
+    
+    .mohit3 img{
+      padding: 3px 85px;
+    }
+.mohit{
+  padding: 5px;
+}
+  }
+
+
+      
+
+      
+    
+        
+      
+
+      
